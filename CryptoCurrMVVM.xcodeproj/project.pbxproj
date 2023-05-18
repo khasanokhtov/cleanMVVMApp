@@ -14,6 +14,8 @@
 		FB8C63932A1604810038044E /* CryptoCurrMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C63922A1604810038044E /* CryptoCurrMVVMTests.swift */; };
 		FB8C639D2A1604810038044E /* CryptoCurrMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C639C2A1604810038044E /* CryptoCurrMVVMUITests.swift */; };
 		FB8C639F2A1604810038044E /* CryptoCurrMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C639E2A1604810038044E /* CryptoCurrMVVMUITestsLaunchTests.swift */; };
+		FB8C63AC2A1604CB0038044E /* Crypto-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C63AB2A1604CB0038044E /* Crypto-Model.swift */; };
+		FB8C63AF2A1609990038044E /* CryptoAPI-Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C63AE2A1609990038044E /* CryptoAPI-Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FB8C63982A1604810038044E /* CryptoCurrMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCurrMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8C639C2A1604810038044E /* CryptoCurrMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrMVVMUITests.swift; sourceTree = "<group>"; };
 		FB8C639E2A1604810038044E /* CryptoCurrMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB8C63AB2A1604CB0038044E /* Crypto-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Crypto-Model.swift"; sourceTree = "<group>"; };
+		FB8C63AE2A1609990038044E /* CryptoAPI-Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CryptoAPI-Manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		FB8C63802A1604800038044E /* CryptoCurrMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				FB8C63AD2A16096D0038044E /* API */,
 				FB8C63812A1604800038044E /* CryptoCurrMVVMApp.swift */,
 				FB8C63832A1604800038044E /* ContentView.swift */,
+				FB8C63B02A160D7E0038044E /* ContenView */,
 				FB8C63852A1604810038044E /* Assets.xcassets */,
 				FB8C63872A1604810038044E /* Preview Content */,
 			);
@@ -125,6 +131,22 @@
 				FB8C639E2A1604810038044E /* CryptoCurrMVVMUITestsLaunchTests.swift */,
 			);
 			path = CryptoCurrMVVMUITests;
+			sourceTree = "<group>";
+		};
+		FB8C63AD2A16096D0038044E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C63AB2A1604CB0038044E /* Crypto-Model.swift */,
+				FB8C63AE2A1609990038044E /* CryptoAPI-Manager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FB8C63B02A160D7E0038044E /* ContenView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContenView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8C63AC2A1604CB0038044E /* Crypto-Model.swift in Sources */,
+				FB8C63AF2A1609990038044E /* CryptoAPI-Manager.swift in Sources */,
 				FB8C63842A1604800038044E /* ContentView.swift in Sources */,
 				FB8C63822A1604800038044E /* CryptoCurrMVVMApp.swift in Sources */,
 			);
