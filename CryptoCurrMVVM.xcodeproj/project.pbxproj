@@ -16,6 +16,7 @@
 		FB8C639F2A1604810038044E /* CryptoCurrMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C639E2A1604810038044E /* CryptoCurrMVVMUITestsLaunchTests.swift */; };
 		FB8C63AC2A1604CB0038044E /* Crypto-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C63AB2A1604CB0038044E /* Crypto-Model.swift */; };
 		FB8C63AF2A1609990038044E /* CryptoAPI-Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C63AE2A1609990038044E /* CryptoAPI-Manager.swift */; };
+		FB8C63B22A1676090038044E /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C63B12A1676090038044E /* Content-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FB8C639E2A1604810038044E /* CryptoCurrMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FB8C63AB2A1604CB0038044E /* Crypto-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Crypto-Model.swift"; sourceTree = "<group>"; };
 		FB8C63AE2A1609990038044E /* CryptoAPI-Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CryptoAPI-Manager.swift"; sourceTree = "<group>"; };
+		FB8C63B12A1676090038044E /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,6 @@
 			children = (
 				FB8C63AD2A16096D0038044E /* API */,
 				FB8C63812A1604800038044E /* CryptoCurrMVVMApp.swift */,
-				FB8C63832A1604800038044E /* ContentView.swift */,
 				FB8C63B02A160D7E0038044E /* ContenView */,
 				FB8C63852A1604810038044E /* Assets.xcassets */,
 				FB8C63872A1604810038044E /* Preview Content */,
@@ -145,6 +146,8 @@
 		FB8C63B02A160D7E0038044E /* ContenView */ = {
 			isa = PBXGroup;
 			children = (
+				FB8C63832A1604800038044E /* ContentView.swift */,
+				FB8C63B12A1676090038044E /* Content-ViewModel.swift */,
 			);
 			path = ContenView;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				FB8C63AC2A1604CB0038044E /* Crypto-Model.swift in Sources */,
 				FB8C63AF2A1609990038044E /* CryptoAPI-Manager.swift in Sources */,
 				FB8C63842A1604800038044E /* ContentView.swift in Sources */,
+				FB8C63B22A1676090038044E /* Content-ViewModel.swift in Sources */,
 				FB8C63822A1604800038044E /* CryptoCurrMVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

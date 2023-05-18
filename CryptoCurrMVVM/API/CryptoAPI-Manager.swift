@@ -16,7 +16,7 @@ class CryptoAPI {
             return
         }
         
-        let urlString = "https://rest.coinapi.io/v1/exchangerate/\(currency)?invert=false&apikey\(API_KEY)"
+        let urlString = "https://rest.coinapi.io/v1/exchangerate/\(currency)?invert=false&apikey=\(API_KEY)"
         
         guard let url = URL(string: urlString) else {
             print("Crypto API invalid")
